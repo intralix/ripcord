@@ -1,0 +1,22 @@
+{
+    "name": "lgps/ripcord",
+    "description": "RPC client and server around PHP's xmlrpc library",
+    "keywords": ["RPC", "XML", "XMLRPC"],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lgps\\Ripcord\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Aviña",
+            "email": "sistemas@intralix.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {}
+}
